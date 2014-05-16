@@ -15,9 +15,10 @@ However, matplotlib relies on *freetype* and *libpng* which you may need to inst
 
 Usage
 ====
-Using a program is easy. You just specify the list of nodes in your graph in the following format:
+Using the program is easy. Just run the main script, specify the nodes in the given format and you are good to go.
 ```python
-   (1,2), (3,4), (3,5), (1,6), (1,7), (4,8)
+   python connected_components.py
+   Enter edges (i, j) (separated by comma): (1,2), (3,4), (3,5), (1,6), (1,7), (4,8)
 ```
 and the graph gets automatically constructed.
 The program will then interactively show what is happening with your graph. The final result should look like something like this:
