@@ -6,7 +6,7 @@ This simple program ilustrates how you can easily find all the connected compone
 The program uses *networkx*[1] library for Graph construction and *matplotlib*[2] for interactive representation of what is currently happening. Therefore these two libraries are requirements.
 
 Installation
-====
+=====
 To install the program you could just run:
 ```python
    pip install -r requirements.txt
@@ -14,7 +14,7 @@ To install the program you could just run:
 However, matplotlib relies on *freetype* and *libpng* which you may need to install separately. For more info about the proper matplotlib installation check [3].
 
 Usage
-===
+====
 Using a program is easy. You just specify the list of nodes in your graph in the following format:
 ```python
    (1,2), (3,4), (3,5), (1,6), (1,7), (4,8)
@@ -22,6 +22,7 @@ Using a program is easy. You just specify the list of nodes in your graph in the
 and the graph gets automatically constructed.
 The program will then interactively show what is happening with your graph. The final result should look like something like this:
 ![connected components](http://i61.tinypic.com/2hrh5ih.png "Connected components")
+
 In the shell you should get the following output:
 ```
 --- Graph G=(V,E) ---
@@ -57,7 +58,7 @@ They are:
 ```
 
 References
-===
+====
 [1] http://networkx.github.io <br>
 [2] http://matplotlib.org<br>
 [3] http://matplotlib.org/users/installing.html
